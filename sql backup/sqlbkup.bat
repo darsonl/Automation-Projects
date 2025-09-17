@@ -6,4 +6,4 @@ IF %ERRORLEVEL% EQU 0 (
 ) ELSE (
     echo [%DATE% %TIME%] BKQ.sql execution failed with error code %ERRORLEVEL% >> "%LOGFILE%"
 )
-powershell.exe -NoProfile -ExecutionPolicy Bypass -File "D:\BK\deleteoldbk.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "D:\BK\deleteoldbkup.ps1"
