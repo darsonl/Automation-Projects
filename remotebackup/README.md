@@ -1,4 +1,4 @@
-# Automation-Projects
+# Remote Backup
 This script is for a remote server that uses VPN connection to grab SQL backup files from three different main office server locations and different directories.
 Pre-requisites:
   1) VPN setup.
