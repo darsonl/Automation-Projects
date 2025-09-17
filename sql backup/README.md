@@ -1,1 +1,1 @@
-Batchfile that runs SQL command to backup database then runs another script to delete the oldest file in target destination.
+Batchfile (sqlbkup.bat) that runs SQL command to backup database then runs a powershell script (deletoldbkup.ps1) as well to delete the oldest file in target destination.
