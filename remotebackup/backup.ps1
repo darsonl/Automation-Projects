@@ -16,7 +16,7 @@ Write-Log "Connecting to VPN..."
 $vpnResult = rasdial $vpnName $vpnUser $vpnPass | Out-String
 Write-Log "VPN output: $vpnResult"
 
-if ($vpnResult -match "已連線" -or $vpnResult -match "成功") {
+if ($vpnResult -match "瞻w糧s翻u" -or $vpnResult -match "礎穡瞼\") {
     Write-Log "VPN connected."
 } else {
     Write-Log "VPN connection failed. Output: $vpnResult Exiting script."
